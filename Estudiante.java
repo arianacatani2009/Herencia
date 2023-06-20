@@ -3,9 +3,6 @@ public class Estudiante extends Persona{
     private String correo;
     private String semestre;
     private String Carrera;
-    public Estudiante(){
-        super(ci, telefono, nombre, apellido, direccion);
-    }
     public Estudiante(int ci, String telefono, String nombre, String apellido, String direccion,int codigo,String correo,String semestre,String Carrera ) {
         super(ci,telefono, nombre, apellido, direccion);
         this.codigo=codigo;

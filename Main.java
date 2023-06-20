@@ -1,11 +1,11 @@
 
 public class Main {
     public static void main (String[]args) {
-        Persona Pedro = new Persona();
-        Persona persona1 = new Doctor();
-        Persona persona2= new Empleado();
-        Persona persona3= new Futbolista();
-        Persona persona4= new Estudiante();
+        Persona Pedro = new Persona(51561561,"0994543432","Melany","Nava","guamani");
+        Persona persona1 = new Doctor(235566,"Alan","Perez","Barrio nuevo","0989787","Pediatria",32323,"Temprano",2023,"Sagitario");
+        Persona persona2= new Empleado(251561,"Nose","Alcachofa","Guamani","009876767","Gerente","jefe",156161);
+        Persona persona3= new Futbolista(2651561,"Juan","Vca","Chillogallo","00987744","LIGA","Delantero",5,"PANCHO",8);
+        Persona persona4= new Estudiante(344444,"9949499494","Isaella","Cebra","Conocoto",545,"isabel.cebra@gmail.com","3ro","contador");
         System.out.println(Pedro.getCi());
 
         Estudiante Mayerli = new Estudiante(

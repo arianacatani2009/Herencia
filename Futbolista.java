@@ -4,9 +4,6 @@ public class Futbolista extends Persona{
     private int nCamiseta;
     private String representante;
     private int entrena;
-    public Futbolista(){
-        super(ci, telefono, nombre, apellido, direccion);
-    }
     public Futbolista(int ci, String nombre, String apellido, String direccion, String telefono,String equipo,String posicion,int nCamiseta,String representante, int entrena) {
         super(ci, nombre, apellido, direccion, telefono);
         this.equipo=equipo;
